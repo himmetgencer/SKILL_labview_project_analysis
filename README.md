@@ -11,7 +11,6 @@ Includes:
 - 4-layer analysis framework (architecture, behavior, quality, messaging)
 - Response strategies for bug fix, migration, architecture, and code review queries
 - DQMH Consortium Style Guide compliance checks
-- RAG chunking strategy and vector DB metadata schema
 - Calibrated for CLA-level users — no basic explanations
 
 

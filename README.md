@@ -38,6 +38,43 @@ Style Guide  : DQMH Consortium Style Guide (bkz. StyleGuide.pdf)
 
 ---
 
+## Prerequisites
+
+This skill requires two LabVIEW tools to generate the input files:
+
+### 1. PlantUML Output — classy Diagram Viewer
+**Source:** https://gitlab.com/tatiana.boye/classy-diagram-viewer
+
+classy is a VI Scripting tool that generates PlantUML class diagrams from your LabVIEW project.
+Unlike the built-in Class Hierarchy viewer, it captures inheritance, composition, and aggregation
+relationships, including method signatures and data members.
+
+**How to generate:**
+1. Open your `.lvproj` in LabVIEW
+2. Run classy and point it to your project
+3. Export as PlantUML text (`.txt`)
+4. Feed the text into this skill
+
+### 2. Antidoc HTML Output — Wovalab Antidoc
+**Source:** https://www.vipm.io/package/wovalab_lib_antidoc/
+
+Antidoc generates structured documentation from your LabVIEW project's VI descriptions,
+class documentation, and library documentation. Output formats: AsciiDoc, HTML, PDF.
+
+**How to generate:**
+1. Install via VIPM: `wovalab_lib_antidoc` (LabVIEW 2020+)
+2. Open Antidoc from the Tools menu
+3. Select your `.lvproj`
+4. Export as HTML
+5. Feed the HTML into this skill
+
+> **Note:** Documentation quality directly affects analysis depth.
+> Populate VI descriptions (File > VI Properties > Description),
+> class descriptions, and library descriptions before running Antidoc.
+> Follow the DQMH Consortium Style Guide for consistent results.
+
+---
+
 ## GİRDİ FORMATLARI
 
 ### 1. PlantUML Metni (plant-uml.txt)
@@ -454,6 +491,6 @@ Bu skill dosyası şu araçların çıktılarına göre kalibre edilmiştir:
 - Plant-UML Tool: `SoftwareMinimalist/LabVIEW-Class-Project-Plant-UML` (LV2019+)
 - Antidoc: Wovalab v3.2.x (Feb 2026)
 - Style Guide: DQMH Consortium v1.0.1
-- Soliton LLM Libraries: `labview-llm-libraries`
+- Soliton LLM Libraries: `labview-llm-libraries` (users/pranay/gdevcon branch)
 - Actor Framework: v2.0+ (NI GitHub)
 - DQMH: v7.0.1

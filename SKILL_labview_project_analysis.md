@@ -476,6 +476,5 @@ This skill file is calibrated against the following tool versions:
 - PlantUML Tool: classy Diagram Viewer by Tatiana Boyé (gitlab.com/tatiana.boye/classy-diagram-viewer)
 - Antidoc: Wovalab v3.2.x (Feb 2026) — vipm.io/package/wovalab_lib_antidoc
 - Style Guide: DQMH Consortium v1.0.1
-- Soliton LLM Libraries: `labview-llm-libraries` (users/pranay/gdevcon branch)
 - Actor Framework: v2.0+ (github.com/ni/actor-framework)
 - DQMH: v7.0.1 (dqmh.org)

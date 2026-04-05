@@ -475,6 +475,6 @@ Bu skill dosyası şu araçların çıktılarına göre kalibre edilmiştir:
 - Plant-UML Tool: `SoftwareMinimalist/LabVIEW-Class-Project-Plant-UML` (LV2019+)
 - Antidoc: Wovalab v3.2.x (Feb 2026)
 - Style Guide: DQMH Consortium v1.0.1
-- Soliton LLM Libraries: `labview-llm-libraries` (users/pranay/gdevcon branch)
+- Soliton LLM Libraries: `labview-llm-libraries`
 - Actor Framework: v2.0+ (NI GitHub)
 - DQMH: v7.0.1
